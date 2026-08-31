@@ -85,11 +85,16 @@ $$
 Responda:
 
 1. Quantos símbolos existem no alfabeto?
+Existem 3 símbolos.
 2. Quais são os símbolos?
+Os símbolos são a, b e c.
 3. O símbolo `a` pertence ao alfabeto?
+Sim, pois a ∈ Σ
 4. O símbolo `d` pertence ao alfabeto?
+Não, pois d ∉ Σ
 5. Escreva uma palavra formada por símbolos desse alfabeto.
-
+Um exemplo é abc.
+Outros exemplos: aab, bca, ccab.
 ---
 
 # 2. Palavras sobre um alfabeto
