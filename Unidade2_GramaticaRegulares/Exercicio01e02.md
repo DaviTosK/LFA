@@ -778,11 +778,15 @@ $$
 Identifique:
 
 1. O conjunto de variáveis.
+-**V = {S, A}**
 2. O conjunto de terminais.
+-**T = {0, 1}**
 3. O conjunto de produções.
+-**P = {S → 0A, A → 1}**
 4. O símbolo inicial.
+-**S**
 5. Qual palavra pode ser gerada por essa gramática?
-
+-**01**
 ---
 
 # 8. Como ler e aplicar uma produção
@@ -878,10 +882,13 @@ $$
 Começando com $S$:
 
 1. Aplique a regra uma vez.
+-**S → 0S**
 2. Aplique a regra duas vezes.
+-**S → 0S → 00S**
 3. Aplique a regra três vezes.
+-**S → 0S → 00S → 000S**
 4. Escreva a sequência completa de derivação.
-
+-**S → 0S → 00S → 000S**
 ---
 
 # 9. Derivação completa de uma palavra
@@ -1023,7 +1030,7 @@ aaab
 $$
 
 **Escreva todos os passos da derivação.**
-
+-**S → aSS → aaSSS → aaaSSSS → aaabSSS → aaabbSS → aaabbbS → aaabbbb**
 ---
 
 # 10. Identificando palavras geradas por uma gramática
@@ -1175,14 +1182,19 @@ $$
 Determine se cada palavra pode ser gerada:
 
 1. `1`
+-**Pode**
 2. `01`
+-**Não pode**
 3. `001`
+-**Não pode**
 4. `0001`
+-**Não pode**
 5. `101`
+-**Não pode**
 6. `1001`
-
+-**Não pode**
 Para as palavras que podem ser geradas, apresente a derivação completa.
-
+-- 1- **S⇒1**
 ---
 
 # Gabarito Comentado
