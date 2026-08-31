@@ -214,11 +214,11 @@ Classifique cada sequência como **palavra válida** ou **não válida**:
 
 | Sequência | Válida? | Justificativa |
 | --------- | ------- | ------------- |
-| `0101`    |         |               |
-| `00110`   |         |               |
-| `012`     |         |               |
-| `111`     |         |               |
-| `10a`     |         |               |
+| `0101`    | sim     |Contém apenas 0 e 1|
+| `00110`   | sim     |	Contém apenas 0 e 1|
+| `012`     | não     |	Contém o símbolo 2, que não pertence ao alfabeto|
+| `111`     | sim     |	Contém apenas 0 e 1|
+| `10a`     | não     |	Contém o símbolo a, que não pertence ao alfabeto|
 
 ---
 
