@@ -449,12 +449,12 @@ $$
 
 Determine se cada palavra pertence à linguagem:
 
-1. $0 \in L$
-2. $01 \in L$
-3. $0111 \in L$
-4. $10 \in L$
-5. $111 \in L$
-6. $011 \in L$
+1. $0 \in L$ **Verdadeiro**
+2. $01 \in L$ **Verdadeiro**
+3. $0111 \in L$ **Verdadeiro**
+4. $10 \in L$ **Falso**
+5. $111 \in L$ **Falso**
+6. $011 \in L$ **Verdadeiro**
 
 ---
 
