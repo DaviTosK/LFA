@@ -449,12 +449,12 @@ $$
 
 Determine se cada palavra pertence à linguagem:
 
-1. $0 \in L$ **Verdadeiro**
-2. $01 \in L$ **Verdadeiro**
-3. $0111 \in L$ **Verdadeiro**
-4. $10 \in L$ **Falso**
-5. $111 \in L$ **Falso**
-6. $011 \in L$ **Verdadeiro**
+1. $0 \in L$ -**Verdadeiro**
+2. $01 \in L$ -**Verdadeiro**
+3. $0111 \in L$ -**Verdadeiro**
+4. $10 \in L$ -**Falso**
+5. $111 \in L$ -**Falso**
+6. $011 \in L$ -**Verdadeiro**
 
 ---
 
@@ -558,10 +558,13 @@ L = {b^n \mid n \geq 1}
 $$
 
 1. Escreva as cinco primeiras palavras.
+**b, bb, bbb, bbbb, bbbbb**
 2. Explique o significado de $b^n$.
+**bⁿ significa a letra "b" repetida n vezes.**
 3. A palavra `bbbbbb` pertence à linguagem?
+**Sim. A palavra bbbbbb possui 6 letras "b", então pertence à linguagem.**
 4. A palavra vazia ($\varepsilon$) pertence à linguagem?
-
+**Não. A palavra vazia corresponde a zero letras "b", mas a linguagem exige pelo menos uma letra "b".**
 ---
 
 # 6. Linguagem vazia e palavra vazia
@@ -665,9 +668,11 @@ $$
 Depois responda:
 
 1. Qual delas possui uma palavra?
+-**B, pois possui ε**
 2. Qual delas não possui nenhuma palavra?
+-**A, pois ∅ não contém palavras.**
 3. Qual é o comprimento da palavra $\varepsilon$?
-
+-**0, porque a palavra vazia não possui nenhum símbolo.**
 ---
 
 # 7. Estrutura de uma gramática
