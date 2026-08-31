@@ -338,12 +338,12 @@ $$
 
 Determine se as afirmações são **verdadeiras ou falsas**:
 
-1. $0 \in \Sigma$
-2. $1 \in \Sigma$
-3. $01 \in \Sigma$
-4. $01 \in \Sigma^*$
-5. $2 \in \Sigma$
-6. $101 \in \Sigma^*$
+1. $0 \in \Sigma$ **Verdadeira - O símbolo 0 pertence ao alfabeto.**
+2. $1 \in \Sigma$ **Verdadeira - O símbolo 1 pertence ao alfabeto.**
+3. $01 \in \Sigma$ **Falsa - 01 é uma palavra, e não um único símbolo do alfabeto. Portanto, 01∉Σ**
+4. $01 \in \Sigma^*$ **Verdadeira - 01 é uma palavra formada somente por símbolos de Σ**
+5. $2 \in \Sigma$ **Falsa- O símbolo 2 não pertence a Σ, pois o alfabeto contém apenas 0 e 1.**
+6. $101 \in \Sigma^*$ **Verdadeira - 101 é uma palavra formada apenas pelos símbolos 1 e 0.**
 
 Justifique cada resposta.
 
